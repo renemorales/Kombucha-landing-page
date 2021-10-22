@@ -1,0 +1,86 @@
+/* Global START */
+:root {
+  --blue-magenta: #47455c;
+  --orange: #f24130;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+body {
+  font-family: 'Cardo', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+/* Global END */
+
+/* Header START */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 1rem 7%;
+  z-index: 100;
+}
+
+/* burger menu */
+#burger-menu {
+  display: none;
+}
+
+
+.header .logo {
+  color: #111;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  font-weight: 900;
+}
+
+.header .navbar .navbar-link,
+.header .icons .fas {
+  margin: 0.8rem;
+}
+
+.header .navbar .navbar-link {
+  font-size: 1.2rem;
+  color: rgb(62, 59, 59);
+  font-weight: 600;
+  cursor: pointer;
+  border-spacing: 20px;
+  padding-bottom: 0.5rem;
+}
+
+/* .header .navbar .navbar-link:active, */
+.header .navbar .navbar-link:hover {
+  border-bottom: 2px solid var(--orange);
+}
+
+.header .navbar .navbar-link,
+.header .icons .fas {
+  cursor: pointer;
+}
+
+/* Icons */
+.header .icons .fas {
+  color: rgb(99, 96, 96);
+}
+
+
+/* Header END */
